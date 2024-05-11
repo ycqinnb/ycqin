@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>539班官方网站</title>
+<style>
+    .main{
+        margin: auto;
+        width: 160px;
+    }
+    #inp{
+         width: 100%;
+         box-sizing: border-box;
+    }
+    #cbt{
+         width: 100%;
+    }
+</style>
+</head>
+<body>
+<center>
+<h1> 输入密码 </h1>
+</center>
+<div class="main">
+        <input type="text" id="inp">
+        <button id="cbt">确定</button>
+        <div class="msg"></div>
+</div>
+<script>
+        var ecbt = document.querySelector('#cbt');
+        var einp = document.querySelector('#inp');
+        var emsg = document.querySelector('.msg');
+        ecbt.onclick = function(){
+        window.location.href = '539class.apk';
+        }
+</script>
+</body>
+</html>
